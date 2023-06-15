@@ -1,0 +1,395 @@
+body{
+	margin:0px;
+}
+#body-header{
+	height:65vh;
+	background-image:url(https://img.freepik.com/free-vector/three-realistic-focus-lights-studio-background_1017-38989.jpg?w=1060&t=st=1683636284~exp=1683636884~hmac=37e036242cab28187f5f525f24f42d985622a121d827cc296808f8168c8eb1b5);
+	width:100%;
+	opacity:0.76;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-attachment:scroll;
+}
+.horizontal-list{
+	padding-left:0px;
+	text-align:center;
+}
+
+.horizontal-list li{
+	display:inline-block;
+	margin:0px 15px 15px 0px;
+	font-size:20px;
+}
+.horizontal-list li a {
+	color:white;
+	text-decoration:none;	
+	transition:color 1s, border-bottom 2s;
+}
+.horizontal-list li a:hover{
+	color:yellow;
+	border-bottom:1px solid white;
+}
+
+
+#social-media{
+	height:400px;
+	width:100vw;
+}
+#name{
+	height:auto;
+	width:400px;
+	margin:auto;
+	margin-top:150px;
+	margin-bottom:30px;
+	font-weight:700;
+	font-size:40px;
+	color:white;
+}
+#images img{
+	height:30px;
+	width:30px;
+	margin-right:45px;
+	border-radius:12px;
+}
+#images{
+	width:400px;
+	height:auto;
+	margin:auto;
+}
+#images a img:hover{
+	box-shadow:0px 0px 6px 4px grey;
+}
+#about-content{
+	margin-left:50px;
+	margin-right:50px;
+	text-align:center;
+	font-size:20px;
+	margin-top:-40px;
+}
+#profile-photo{
+	margin:auto;
+	width:150px;
+	position:relative;
+	bottom:50px;
+}
+#profile-photo img{
+	height:150px;
+	width:150px;
+	border-radius:50px;
+	
+}
+#skills{
+	width:100vw;
+	height:50vh;
+	display:flex;
+	flex-direction:column;
+}
+#skills-header{
+	width:100vw;
+	height:9vh;
+	text-align:center;
+}
+#skills-header img{
+	display:inline-block;
+	margin-top:10px;
+	height:90%;
+	width:70px;
+}
+#skills-header h1{
+	display:inline-block;
+	vertical-align:top;
+	font-size:30px;
+	background-color:violet;
+	border:1px solid violet;
+	border-radius:10px;
+		
+}
+#skills-display{
+	margin-top:30px;
+	width:700px;
+	height:36vh;
+	margin-left:400px;
+	margin-right:100px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	
+	
+}
+#skills-display div{
+	height:25px;
+	width:250px;
+	border-radius:20px;
+	background-color:grey;
+}
+#skills-display div #java{
+	height:100%;
+	width:70%;
+	background-color:yellow;
+	text-align:center;
+	border-radius:15px;
+}
+#skills-display div #c{
+	height:100%;
+	width:60%;
+	background-color:blue;
+	text-align:center;
+	border-radius:15px;
+}
+#skills-display div #python{
+	height:100%;
+	width:40%;
+	background-color:orange;
+	text-align:center;
+	border-radius:15px;
+}
+#skills-display div #html{
+	height:100%;
+	width:90%;
+	background-color:green;
+	text-align:center;
+	border-radius:15px;
+}
+#skills-display div #dsa{
+	height:100%;
+	width:60%;
+	background-color:purple;
+	text-align:center;
+	border-radius:15px;
+}
+#skills-display div #css{
+	height:100%;
+	width:75%;
+	background-color:red;
+	text-align:center;
+	border-radius:15px;
+}
+
+
+
+#contact{
+	height:420px;
+	width:100vw;
+	background-image:linear-gradient(darkslateblue,royalblue);
+}
+#contact-title{
+	height:auto;
+	width:100%;
+	text-align:center;
+}
+#contact-title img{
+	height:100%;
+	width:60px;
+	display:inline-block;
+}
+#contact-title p{
+	font-size:25px;
+	display:inline-block;
+}
+#contact-info{
+	width:100%;
+	height:250px;
+	display:flex;
+}
+#personal-details{
+	height:100%;
+	width:50%;
+	padding-left:50px;
+	padding-top:50px;
+}
+#personal-details input{
+	margin-bottom:20px;
+	border-bottom:4px solid blue;
+	width:85%;
+	height:25px;
+}
+#personal-details button{
+	margin-left:30%;
+}
+#general-info{
+	height:100%;
+	width:60%;
+	padding-left:20px;
+}
+
+
+
+#experience{
+	width:100%;
+	height:700px;
+	position:relative;
+}
+#experience-heading{
+	width:100%;
+	height:06%;
+}
+#experience-heading h1{
+	text-align:center;
+	color:blue;
+	font-size:30px;
+	margin-top:0px;
+	background-color:orange;
+	border-radius:50%;
+}
+#experience-heading h1::before{
+	content:'';
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-image:url(https://img.jagranjosh.com/imported/images/E/Articles/imp-of-work-ex.jpg);
+	height:34px;
+	width:60px;
+	
+}
+#experience-timeline{
+	width:100%;
+	height:94%;
+	position:relative;
+}
+.yearwise{
+	width:25%;
+	height:28%;
+	margin:20px;
+	position:relative;
+	overflow:hidden;
+}
+.yearwise:nth-child(2n){
+	left:70%;
+}
+.yearwise:nth-child(2n+1){
+	left:07%;
+}
+.yearwise h2{
+	text-align:right;
+	margin-top:0px;
+	color:red;
+	text-transform:uppercase;
+	font-family:algerian;
+}
+.yearwise h3{
+	text-align:right;
+	margin-top:0px;
+	color:green;
+	text-transform:uppercase;
+	font-family:algerian;
+}
+.yearwise  h2::before{
+	content:'';
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-image:url(https://img.jagranjosh.com/imported/images/E/Articles/imp-of-work-ex.jpg);
+	height:25px;
+	width:65px;
+}
+
+
+#divider{
+	height:80%;
+	width:0px;
+	border:2px dashed black;
+	position:absolute;
+	left:50%;
+	top:10%;
+}
+#timeline-traveller{
+	position:sticky;
+	top:20%;
+	transform:rotate(90deg);
+}
+#timeline-traveller img{
+	height:50px;
+	width:40px;
+}
+
+
+#bullet-1{
+	height:18px;
+	width:18px;
+	border:1px solid black;
+	position:absolute;
+	border-radius:50%;
+	background-color:violet;
+	left:49.4%;
+	top:11%;
+}
+#bullet-2{
+	height:18px;
+	width:18px;
+	border:1px solid black;
+	position:absolute;
+	border-radius:50%;
+	background-color:violet;
+	left:49.4%;
+	top:33%;
+}
+#bullet-3{
+	height:18px;
+	width:18px;
+	border:1px solid black;
+	position:absolute;
+	border-radius:50%;
+	background-color:violet;
+	left:49.4%;
+	top:66%;
+}
+
+#portfolio{
+	height:80vh;
+	width:100%;
+}
+
+#portfolio-heading{
+	height:8%;
+	width:100%;
+}
+#portfolio-heading h1{
+	text-align:center;
+	margin-top:0px;
+	font-size:32px;
+	color:blue;
+	font-family:algerian;
+}
+#portfolio-heading h1::before{
+	content:'';
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-image:url(https://www.actitime.com/wp-content/uploads/2021/05/How-to-Build-a-Great-Developer-Portfolio.png);
+	height:35px;
+	width:80px;
+}
+#portfolio-projects{
+	height:90%;
+	width:100%;
+}
+
+.image{
+	position:relative;
+	width:400px;
+	display:inline-block;
+	margin:25px;
+	margin-right:70px;
+}
+.img{
+	width:100%;
+	opacity:0.9;	
+}
+
+.overlay{
+	color:yellow;
+	position:absolute;	
+	top:0px;
+	height:100%;
+	width:100%;
+	left:0px;
+	text-align:center;
+	margin-top:0%;
+	opacity:0;
+	transition:1s all ease-in-out;
+	backdrop-filter:blur(6px);
+}
+.overlay:hover{
+	opacity:1;
+}
